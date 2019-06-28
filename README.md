@@ -26,6 +26,7 @@ for number in 4..<8{
 
 print(myNum)
 ```
+Answer: 23
 
 ***
 ## Question 2
@@ -59,6 +60,7 @@ for l in 1...100 where _ < 101 {
     print(l)
 }
 ```
+Answer: B, C (A is exclusive and D will not run.)
 
 ***
 ## Question 3
@@ -70,8 +72,9 @@ for _ in 1...10{
     for _ in 1...10{
         print("Nesting!")
     }
-}
+} 
 ```
+Answer: 100 times (10 times for each nested loop 10 times.)
 
 ***
 ## Question 4
@@ -117,5 +120,6 @@ while t == t{
     t += 1
 }
 ```
+Answer: A (prints for every even number and operation in loop increases by 2), D (t == t will always be true). 
 
 ***
